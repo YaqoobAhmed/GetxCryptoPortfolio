@@ -1,10 +1,10 @@
 import 'package:dio/dio.dart';
 import 'package:getx_crypto_portfolio/consts.dart';
 
-class HTTPServise {
+class HTTPService {
   final Dio _dio = Dio();
 
-  HTTPServise() {
+  HTTPService() {
     _configureDio();
   }
 
