@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_crypto_portfolio/homescreen.dart';
+import 'package:getx_crypto_portfolio/utils.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-void main() {
+void main() async {
+  await registerServices();
   runApp(const MyApp());
 }
 
